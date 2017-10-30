@@ -1,0 +1,41 @@
+body {
+	background-color: lightblue;
+	background-image: url("../images/landing_image.jpg");
+	background-size: cover;
+}
+.maintitle {
+	color: white;
+	margin-left: 15px;
+	font-size: 30px;
+	font-family: Montserrat, Helvetica, sans-serif;
+	letter-spacing: 2px;
+}
+.centertext {
+	color: white;
+	margin-right: 15px;
+	font-size: 40px;
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	display: inline-block;
+	padding: 20px 20px;
+}
+/*this is the nav bar on the top right*/
+.topnav a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+  letter-spacing: 1px;
+	font-size: 15px;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+/* this is the color of links on hover */
+.topnav a:hover {
+	background-color: black;
+	color: white;
